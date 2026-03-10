@@ -1,4 +1,41 @@
-# Broadcom Account Registration Guide
+# VMware Fusion Setup Guide for macOS
+
+Registering with Broadcom enables free access to **VMware Fusion**, essential for i**nstalling Windows virtual machines** on Intel or Apple Silicon Macs.
+
+### Purpose Overview
+Broadcom Support Portal registration unlocks official VMware Fusion downloads without entitlements for personal use. This supports creating Windows VMs on macOS seamlessly.
+
+## Pre-Registration Hardware Check
+Before registering with Broadcom for VMware Fusion, verify your Mac's model and available storage to ensure compatibility and sufficient space for Windows VMs.
+
+### Check Mac Model
+Identify your Mac hardware to select the correct VMware Fusion build and Windows architecture.
+
+- Go to **Apple Menu > About This Mac**; note the **Chip** (e.g., Apple M1/M2/M3/M4 = ARM/Apple Silicon) or **Processor** (Intel Core i5/i7/etc. = x64). [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/images/55971377/512a9197-9e52-45cc-b4b5-f0f12a20d6d0/image.jpg)
+- Intel Macs require **x64 (Intel 64-bit)** Windows ISOs and universal Fusion builds.
+- Apple Silicon Macs (M-series) need **ARM64** Windows 11 ISOs (x64 won't boot).
+
+## Storage Requirements
+Allocate adequate SSD space for smooth VM performance.
+
+- **Minimum**: 64GB total free space (VMware Fusion ~1GB + Windows VM 50GB + apps/updates).
+- **Recommended**: If your laptop has 512GB SSD, it is good to create VM for good performance.
+- Check via **Apple Menu > About This Mac > Storage** or **Finder > Go > Computer**.
+
+## Pre-Registration Checklist
+| Check | Intel Mac | Apple Silicon Mac | Notes |
+|-------|-----------|-------------------|-------|
+| **Model** | Intel Core iX | Apple M1/M2/M3/M4 | Determines Windows arch |
+| **RAM** | 8GB+ | 16GB+ unified | VMs consume host RAM |
+| **Storage** | 64GB+ free | 64GB+ free | Host + Guest allocation |
+| **Windows ISO** | x64 (Win 10/11) | ARM64 (Win 11 only) | Download separately |
+| **Fusion Build** | Universal .dmg | Universal .dmg | Works on both   |
+
+This prevents download/install issues and ensures Windows VM creation succeeds post-Fusion setup.
+
+***
+
+## Broadcom Account Registration Guide
 
 **Registering a Broadcom Support Portal account involves creating a basic profile on their official site for access to support, downloads, and communities.** This process starts with email verification. 
 
