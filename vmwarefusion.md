@@ -11,7 +11,7 @@ Before registering with Broadcom for VMware Fusion, verify your Mac's model and 
 ### Check Mac Model
 Identify your Mac hardware to select the correct VMware Fusion build and Windows architecture.
 
-- Go to **Apple Menu > About This Mac**; note the **Chip** (e.g., Apple M1/M2/M3/M4 = ARM/Apple Silicon) or **Processor** (Intel Core i5/i7/etc. = x64). [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/images/55971377/512a9197-9e52-45cc-b4b5-f0f12a20d6d0/image.jpg)
+- Go to **Apple Menu > About This Mac**; note the **Chip** (e.g., Apple M1/M2/M3/M4 = ARM/Apple Silicon) or **Processor** (Intel Core i5/i7/etc. = x64).
 - Intel Macs require **x64 (Intel 64-bit)** Windows ISOs and universal Fusion builds.
 - Apple Silicon Macs (M-series) need **ARM64** Windows 11 ISOs (x64 won't boot).
 
