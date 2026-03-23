@@ -4,6 +4,7 @@ Registering with Broadcom enables free access to **VMware Fusion**, essential fo
 
 ### Purpose Overview
 Broadcom Support Portal registration unlocks official VMware Fusion downloads without entitlements for personal use. This supports creating Windows VMs on macOS seamlessly.
+***
 
 ## Pre-Registration Hardware Check
 Before registering with Broadcom for VMware Fusion, verify your Mac's model and available storage to ensure compatibility and sufficient space for Windows VMs.
@@ -135,4 +136,4 @@ Follow these steps on the Broadcom Support Portal at https://support.broadcom.co
 ![alt text](images/broadcom14.png)
 
 
-
+### once you download, please reachout your lab assistant for additional settings.
